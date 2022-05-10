@@ -149,7 +149,7 @@ a{
 #in-touch .in-touch-car{
     width:20%;
     height:450px;
-    background-image:url('landimages/car2.png');
+    background-image:url('img/car2.png');
 }
 
 #in-touch .in-touch-orange{
@@ -161,7 +161,7 @@ a{
 #in-touch .in-touch-engine{
     width:40%;
     height:450px;
-    background-image: url('landimages/engine.png');
+    background-image: url('img/engine.png');
 }
 
 #in-touch .in-touch-wrap{
