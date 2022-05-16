@@ -4,6 +4,98 @@
     box-sizing: border-box;
 }
 
+#header-section{
+    min-height:100vh;
+    background-color:white;
+    padding:0px 100px 30px 100px;
+    width:100%;
+}
+
+img{
+    margin-top:30px
+}
+
+#header-section .contact{
+    display:flex;
+    justify-content: flex-end;
+}
+
+#header-section .contact ul{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:-27px;
+}
+
+li{
+    margin-right:20px;   
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+
+
+}
+
+#header-section .contacts{
+    margin-top:-30px;
+}
+
+.fa-brands{
+    color: green;
+    margin-right:8px;
+    margin-top:-20px;
+}
+
+.number{
+    display:inline-block;
+}
+
+.fewords{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.fewords .wording{
+    width:43%;
+    margin-top:100px;
+}
+
+.fewords .wording img{
+    margin-right:10px;
+}
+
+.fewords .wording h1{
+font-family: Manrope;
+font-size: 64px;
+font-weight: 800;
+line-height: 84px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+button{
+    height:40px;
+    width:130px;
+    border-radius: 10px;
+    background-color: rgb(233, 135, 37);
+    color:white;
+    border:1px solid white;
+    margin-top:15px;
+}
+
+.fewords .enginerr-section{
+    width:40%;
+}
+
+.fewords .enginerr-section img{
+    background-size:cover;
+    background-position: center;
+ 
+}
+
 #booking-section{
     min-height:100vh;
     background-color:white;
