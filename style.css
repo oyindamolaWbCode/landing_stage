@@ -27,24 +27,24 @@ img{
 }
 
 li{
-    margin-right:20px;   
+    margin-right:40px; 
     font-family: Manrope;
     font-size: 16px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 2px;
     letter-spacing: 0em;
-
 
 }
 
 #header-section .contacts{
     margin-top:-30px;
+
 }
 
 .fa-brands{
     color: green;
     margin-right:8px;
-    margin-top:-20px;
+    margin-top:-30px;
 }
 
 .number{
@@ -67,12 +67,11 @@ li{
 }
 
 .fewords .wording h1{
-font-family: Manrope;
-font-size: 64px;
-font-weight: 800;
-line-height: 84px;
-letter-spacing: -0.03em;
-text-align: left;
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 84px;
+    letter-spacing: -0.03em;
 
 }
 
@@ -80,9 +79,9 @@ button{
     height:40px;
     width:130px;
     border-radius: 10px;
-    background-color: rgb(233, 135, 37);
+    background-color: rgb(238, 116, 63);
     color:white;
-    border:1px solid white;
+    border:1px solid rgb(238, 116, 63);
     margin-top:15px;
 }
 
@@ -114,33 +113,67 @@ button{
 }
 
 .in-quoteone h2{
-
-font-family: Manrope;
-font-size: 58px;
-font-weight: 800;
-line-height: 76px;
-letter-spacing: -0.03em;
-}
-
-.in-quoteone img{
-    background-color: white;
+    font-family:Manrope;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -0.03em;
 }
 
 .in-quoteone h6{
-font-family: Manrope;
-font-size: 24px;
-font-weight: 200;
-line-height: 36px;
-letter-spacing: -0.03em;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 36px;
+    letter-spacing: -0.03em;
 
+}
+
+.in-quote-section .number p{
+    font-family: Manrope;
+    font-size: 15px;
+    line-height: 28px;
+
+}
+
+.in-quote-section .images{
+    margin-top:40px;
 }
 
 .number{
     display:inline-block;
 }
 
+.in-quote-section .more-direction a{
+    margin-top:30px;
+    margin-right:3px;
+}
+
 .in-quotetwo{
     width:43%;
+}
+
+.in-quotetwo h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+
+}
+
+.in-quotetwo .text-box input[type="text"]{
+    width:70%;
+    height:45px;
+    margin-bottom:1px;
+    border:1px solid white;
+}
+
+.in-quotetwo .text-box input[type="number"]{
+    width:70%;
+    height:45px;
+    border:1px solid white;
+    margin-bottom:30px;
 }
 
 #booking-section{
@@ -151,11 +184,11 @@ letter-spacing: -0.03em;
 }
 
 #booking-section .left-flex{
-    width:55%
+    width:45%
 }
 
-#booking-section .left-flex{
-    width:40%;
+#booking-section .right-flex{
+    width:45%;
 }
 
 .book-flex{
@@ -170,7 +203,7 @@ letter-spacing: -0.03em;
 }
 
 #booking-section .right-flex .rigth-text{
-    width:70%;
+    width:50%;
 }
 
 #booking-section .right-flex .right-img img{
@@ -187,18 +220,18 @@ li{
 }
 
 #booking-section .right-flex .right-text h2{
-font-size: 32px;
-font-weight: 700px;
-line-height: 48px;
-padding-top: 20px;
-font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 40px;
+    padding-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #booking-section .right-flex .right-text p{
-font-size: 19px;
-font-weight: 600px;
-padding-top:10px;
-
+    font-size: 12px;
+    /*padding-top:10px;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 12px;
 }
 
 #offer-page{
@@ -208,21 +241,16 @@ padding-top:10px;
     width:100%;
 }
 
-/*.section-two{
-     display: none; 
-    width:100%;
-    min-height:100vh;
-}*/
 #booking-section .left-flex .divisionpage h2{
-font-size: 40px;
-font-weight: 700px;
-line-height: 50px;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 50px;
 }
 
 #booking-section .left-flex .divisionpage p{
 font-size: 16px;
 font-weight: 600px;
-padding-top:8px;
+/*padding-top:8px;*/
 }
 
 #booking-section .left-flex .divisionpage{
@@ -245,12 +273,12 @@ p{
 #offer-page .image_section .offer-box{
     background-color:white;
     height:232px;
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   text-align:center;
-   width:24%;
-   margin-bottom: 12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    width:24%;
+    margin-bottom: 12px;
 }
 
 #offer-page .image_section{
@@ -264,6 +292,7 @@ p{
     background-color: rgb(238, 116, 63);
     color:aliceblue;
 }
+
 a{
     text-decoration: none;
     color:black;
@@ -274,12 +303,369 @@ a{
     justify-content:flex-end;
 }
 
-.more-direction a p{
-    margin-right: 10px;
+.more-direction a{
+    margin-top:30px;
+    margin-right:3px;
+}
+
+/* service-styling */
+
+.service-section{
+    min-height: 100vh;
+    padding-top:50px;
+}
+
+.service-section-container{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width:100%;
+    height:500px;
+}
+
+.service-section-container .service-section1{
+    width:37%;
+    background-image:url('img/service.png');
+    background-size:cover;
+}
+
+.service-section-container .service-section2{
+    width:63%;
+    background-color: black;
+    padding:150px;
+}
+
+.service-section-container .service-section2 .bodies{
+    color:white;
+}
+
+.service-section2 .bodies h1{
+    font-family:Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: 40;
+    margin-bottom:30px;
+    letter-spacing: -0.03em;
+}
+
+.service-section2 .bodies a{
+    color:white;
+    background-color:rgb(238, 116, 63);
+}
+
+.service-section2 .bodies .btnn button{
+     height:40px;
+     width:130px;
+     border-radius: 10px;
+     background-color: rgb(238, 116, 63);
+     color:white;
+     border:1px solid rgb(238, 116, 63);
+     margin-top:15px;
+}
+
+.service-section2 .bodies .btnn{
+    margin-top:40px;
+}
+
+.di-section-container{
+    background-color:whitesmoke;
+    height:100vh;
+    width:100%;
+    margin-top:-120px;
+}
+
+.diagonistic-section-container{
+    display:flex;
+    justify-content: space-between;
+    padding-top:50px;
+}
+
+.diagonistic-section-container .diagonistic1{
+    width:27%;
+    height:610px;
+    background-color: white;
+    margin-left:250px;
+    padding:25px;
+}
+
+.diagonistic-section-container .diagonistic1 .right-car img{
+    width:100%;
+    height:250px;
+    background-position: center;
+}
+
+.diagonistic-section-container .diagonistic1 .dody h3{
+    font-size: 48px;
+    font-weight: 500;
+
+}
+
+.more-direction .more{
+    display:flex;
+    justify-content:flex-start;
 }
 
 
+.diagonistic-section-container .diagonistic2{
+    width:50%;
+
+} 
+
+.diago{
+    height:195px;
+}
+
+.diago-flex{
+    margin-right:380px;
+}
+
+.diago-flex1{
+    margin-right:380px;
+}
+
+.diago-flex3{
+    margin-right:380px;
+}
+
+.diago-flex .diago{
+    display:flex;
+    justify-content:space-evenly; 
+    
+}
+
+.diago-flex1 .diago{
+    display:flex;
+    justify-content:space-evenly; 
+    margin-top: 20px;
+}
+
+.diago-flex3 .diago{
+    display:flex;
+    justify-content:space-evenly; 
+    margin-top:20px;
+}
+
+.diago .one{
+    background-color: white;
+    align-items: center; 
+    justify-items: center;
+    justify-content: center;
+    width:170px;
+    height:178px;
+}
+
+.diago .one:hover{
+    background-color: rgb(238, 116, 63);
+}
+
+.diago .two:hover{
+    background-color: rgb(238, 116, 63);
+}
+
+.diago .one img{
+    margin-left:60px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.diago .one p{
+    margin-left:20px;
+}
+
+.diago .two p{
+    margin-left:20px;
+}
+
+.diago .shift{
+    margin-left:30px;
+}
+
+
+.diago .two img{
+    margin-left:60px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+
+.diago .two{
+    background-color: white;
+    align-items: center; 
+    justify-items: center;
+    justify-content: center;
+    width:170px;
+    height:178px;
+}
+
+.two-images-conjoined{
+    width:100%;
+    min-height:100vh;
+    background-color:white;
+    padding-top:70px;
+}
+
+.full-body-space{
+   display: flex; 
+   justify-content: space-between;
+}
+
+.full-body-space .space-one{
+    width:50%;
+    margin-left: 100px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+
+.space-one img{
+    margin-top: 50px;
+}
+
+.full-body-space .space-one .heading-word{
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 77px;
+
+}
+
+.space-one .para-words{
+    display:inline-block;
+}
+
+.space-one .para-words p{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    word-wrap: break-word;
+}
+
+.full-body-space .image-body-space{
+    width:50%;
+}
+
+.full-body-space .image-body-space img{
+    margin-bottom: 50px;
+}
+
+.second-row-body{
+   background-color: white;
+   width:100%;
+   min-height: 100vh;
+}
+
+.second-row-body .second-row{
+    display:flex;
+    justify-content: space-between;
+    padding:120px;
+}
+
+.second-row-body .second-row .image-row{
+    width:50%;
+}
+
+.second-row-body .second-row .text-row{
+    width:50%;
+}
+
+.second-row-body .second-row .text-row h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 50px;
+    margin-top:80px;
+}
+
+.second-row-body .second-row .text-row p{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    padding-right: 30px;
+    /* margin-top: -30px; */
+}
+
+.btnn-space{
+    margin-top:50px;
+}
+
+.footer-page{
+    width:100%;
+    height:500px;
+    background-color:#1E1B1B;
+    color: white;
+}
+
+.footer-page .flexing-footer{
+    display: flex;
+    justify-content: space-between;
+     padding:100px; /*500px 50px 150px; */
+}
+
+.footer-page .flexing-footer .flexing-footer-one{
+    width:50%;
+    padding-left:40px;
+}
+
+.footer-page .flexing-footer .flexing-footer-two{
+    width:50%;
+}
+
+.footer-page .flexing-footer .flexing-footer-one h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.social-footer .fa-brands{
+    color:white;
+}
+
+.flexing-footer .flexing-footer-two .ffone{
+    margin:20px;
+}
+
+.flexing-footer .flexing-footer-two .ffone p{
+    color: white;
+    opacity:0.6;
+    margin-bottom:24px;
+}
+
+.flexing-footer-part-two{
+    width:100%;
+    height:100px;
+    background-color:red;
+    color:#1E1B1B;
+
+}
+
+.flexing-footer-part-two .the-body{
+    padding:0px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.flexing-footer-part-two .the-body .staight-line{
+    display: inline;
+}
+
+.flexing-footer-part-two .the-body .staight-line ul{
+    display: inline;
+} */
+
+.flexing-footer-part-two .the-body .staight-line .flexy p{
+    font-size: 18px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/* ends here */
+
 #in-touch{
+    
     min-height:100vh;
     background-color:rgba(237, 236, 234, 0.847);
     width:100%;
@@ -342,8 +728,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 #foot-page .foot-page1 .centered-word h3{
     text-align:center;
-    font-family:'Times New Roman', Times, serif;
-    font-size:37px;
+    
+    -family:'Times New Roman', Times, serif;
+    
+    -size:37px;
 }
 
 #foot-page .foot-page2 .foot1{
