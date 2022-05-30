@@ -1067,6 +1067,38 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
        background-size: cover;
     }
 
+    #quote-section{
+        padding:20px;
+    }
+
+    #quote-section .in-quote-section{
+        padding:20px;
+        flex-direction: column;
+    }
+
+    #quote-section .in-quote-section .in-quoteone{
+        width:100%;
+    }
+
+    #quote-section .in-quote-section .in-quotetwo{
+        width:100%;
+    }
+
+    #quote-section .in-quote-section .in-quotetwo h3{
+        font-size:40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+
+    #booking-section{
+        padding:20px;
+    }
+
+    #booking-section .book-container{
+        padding:20px;
+    }
+
    }
 
 
