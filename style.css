@@ -12,7 +12,7 @@
 }
 
 img{
-    margin-top:30px
+    margin-top:30px;
 }
 
 #header-section .contact{
@@ -45,6 +45,17 @@ li{
     color: green;
     margin-right:8px;
     margin-top:-30px;
+}
+
+.bar{
+    width:30px;
+    height:30px;
+    margin-right: 20px;
+    margin-top:-30px;
+}
+
+.bar{
+    display: none;
 }
 
 .number{
@@ -634,32 +645,34 @@ a{
 
 .flexing-footer-part-two{
     width:100%;
-    height:100px;
-    background-color:red;
-    color:#1E1B1B;
+    height:70px;
+    background-color:black;
 
 }
 
 .flexing-footer-part-two .the-body{
-    padding:0px 100px 0px 100px;
+    padding:0px 290px 0px 100px;
     display: flex;
     justify-content: space-between;
 }
 
-/*.flexing-footer-part-two .the-body .staight-line{
-    display: inline;
+.staright-line .flexy ol{
+    color:white;
+    display: flex;
+    margin-top: 39px;
+    margin-left: 150px;
 }
 
-.flexing-footer-part-two .the-body .staight-line ul{
-    display: inline;
-} */
+.staright-line .flexy li{
+    font-size: 15px;
+    margin-top: 8px;
+    
+}
 
-.flexing-footer-part-two .the-body .staight-line .flexy p{
-    font-size: 18px;
-    line-height: 84px;
-    letter-spacing: -0.03em;
-    display: flex;
-    justify-content:space-evenly;
+.flexing-footer-part-two .the-body p{
+    margin-top: 39px;
+    color: white;
+    opacity:0.6;
 }
 
 /* ends here */
@@ -812,4 +825,38 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     font-size:37px;
 }
 
+/* Media-Query Section */
+@media (max-width:456px){
 
+    #header-section{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+     .headernav .contact ul{
+        display:none;
+    }
+
+    .headernav .contact li{
+        margin-top:15px;
+        margin-right: 10px;
+    } 
+
+   .bar{
+        display:flex;
+    }
+
+    .contact .bar:hover{
+
+    }
+
+    #header-section .contacts{
+        display:none;
+    }
+
+    .enginerr-section{
+        display: none;
+    }
+}
+
+/* Ends here */
